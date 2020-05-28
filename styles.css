@@ -1,0 +1,153 @@
+body, 
+  .button { 
+    background: #DD5E89;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F7BB97, #DD5E89);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F7BB97, #DD5E89); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+      font-size: 10px; 
+      letter-spacing: 2px;
+  }
+
+
+  .login { 
+      position: relative;
+      height: 460px; 
+      width: 350px; 
+      margin: auto;
+      padding: 50px 30px;
+      color: #fff; 
+      background-image: linear-gradient(to right, #333 0% #257fc2 100%)
+      background-size: cover; 
+      box-shadow: 0px 30px 60px -10px #000 
+
+  }
+
+  form { 
+      padding-top: 50px; 
+  }
+
+  .active { 
+      border-bottom: 2px solid #257fc2;
+  }
+
+
+  .nonactive { 
+      color: rgba(red,blue, green)
+  }
+
+
+  h2 { 
+      padding-left: 10px; 
+      font-size: 16px; 
+      text-transform: uppercase;
+      padding-bottom: 3px;
+      letter-spacing: 3px;
+      display: inline-flexbox; 
+      position: relative; 
+      top: -55px; 
+
+  }
+
+  span { 
+      text-transform: uppercase;
+      font-size: 10px; 
+      opacity: 0.9;
+      display: inline-flexbox; 
+      position: relative; 
+      top: -1px; 
+      transition: all 1.1s ease-in-out;
+
+  }
+
+
+  .text { 
+      border: none; 
+      width: 70% ; 
+      padding: 5px 10px ; 
+      display: -webkit-box ; 
+      height: 15px ; 
+      border-radius: 90px;
+      background: rgba(red, green, blue, alpha) ; 
+      border: 2px solid rgba(red, green, blue, alpha); 
+      overflow: hidden ; 
+      margin-top: 10px ; 
+      transition: all 1.1s ease-in-out;
+
+  }
+
+  .text:focus { 
+      outline: 0; 
+      border: 1px solid rgba(red, green, blue, alpha) ; 
+      border-radius: 10px; 
+      background: rgba(red, green, blue, alpha); 
+  }
+
+  .text:focus { 
+      opacity: 0.5;
+  }
+
+  input[type="text"]
+  input [type="password"] { 
+      color:#12D8FA 
+  }
+
+
+  input { 
+      display: inline-flexbox ; 
+      padding-top: 10px; 
+      font-size: 15px; 
+  }
+
+
+h2,  
+span, 
+.custom-checkbox { 
+    margin-left: 25px; 
+    cursor: pointer ; 
+}  
+
+
+.custom-checkbox { 
+    -webkit-animation: linear; 
+    background-color: rgba(red, green, blue, alpha);
+    padding: 6px;
+    border-radius: 2px;
+    display: inline-flexbox;
+    position: relative;
+    top: 8px ; 
+
+}
+
+
+.custom-checkbox:checked { 
+    background-color: rgba(red, green, blue, alpha); 
+}
+
+
+.custom-checkbox:focused { 
+    outline: none;
+}
+
+
+.button { 
+    background-color: seagreen;
+    color: #12D8FA ; 
+    width: 80% ;  
+    padding: 8px 10px ; 
+    display: black ; 
+    height: 40px; 
+    border-radius: 10px;
+    margin-top: 20px ; 
+    transition: all 1.1s ease-in-out;
+    border: none ; 
+    text-transform: capitalize;
+}
+
+.button:hover { 
+    background: #A6FFCB ; 
+    box-shadow: 0px 4px 20px -10px #F8CDDA ; 
+    cursor: progress ; 
+}
+
+.button:focus { 
+    outline:none ; 
+}
